@@ -46,6 +46,8 @@ namespace AkademikADOApp
                     conn.Close();
 
                     lblStatus.Text = "Status : Database Disonnected";
+
+                    MessageBox.Show("Koneksi ke database berhasil diputus!");
                 }
             }
             catch (Exception ex)
