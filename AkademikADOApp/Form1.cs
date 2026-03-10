@@ -28,6 +28,8 @@ namespace AkademikADOApp
                 conn.Open();
 
                 lblStatus.Text = "Status : Database Connected";
+
+                MessageBox.Show("Koneksi ke database berhasil!");
             }
             catch (Exception ex)
             {
