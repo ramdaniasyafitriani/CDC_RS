@@ -44,6 +44,8 @@ namespace AkademikADOApp
                 if (conn != null && conn.State == System.Data.ConnectionState.Open)
                 {
                     conn.Close();
+
+                    lblStatus.Text = "Status : Database Disonnected";
                 }
             }
             catch (Exception ex)
