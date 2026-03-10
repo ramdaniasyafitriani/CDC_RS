@@ -6,6 +6,9 @@ namespace AkademikADOApp
 {
     public partial class Form1 : Form
     {
+        // Connection  string
+        string connString = "Data Source=LAPTOP-M4FI536S\\RAMDANIAA;Initial Catalog=DBAkademikADO;Integrated Security=True";
+
         public Form1()
         {
 
