@@ -52,7 +52,7 @@ namespace AkademikADOApp
             }
             catch (Exception ex)
             {
-
+                MessageBox.Show("Gagal memutus koneksi : " + ex.Message);
             }
         }
     }
