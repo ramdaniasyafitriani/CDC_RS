@@ -24,6 +24,8 @@ namespace AkademikADOApp
             try
             {
                 conn = new SqlConnection(connString);
+
+                conn.Open();
             }
             catch (Exception ex)
             {
